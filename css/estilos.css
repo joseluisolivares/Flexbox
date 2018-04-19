@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+}
+.contenedor-padre {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.contenedor-padre .cabecera {
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: 100%;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 3px solid #614092;
+}
+.contenedor-padre .cabecera .cabecera2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.contenedor-padre .cabecera .cabecera3 {
+  display: flex;
+  flex-flow: row nowrap;
+}
